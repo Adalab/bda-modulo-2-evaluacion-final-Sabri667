@@ -602,15 +602,3 @@ FROM film f
 LEFT JOIN film_category fc ON fc.film_id = f.film_id
 LEFT JOIN category c ON fc.category_id = c.category_id
 WHERE c.name = 'Comedy' AND f.length > 180;
-
-/*
-### Requisitos Mínimos (Esenciales)
-- Creación y clonación de un repositorio de GitHub: Necesario para comenzar la evaluación.
-- Dominio de queries básicas
-- Filtros y Condiciones: Uso de WHERE y Operadores de comparación (=, <>, <, >, <=, >=) y lógicos (AND, OR, NOT).
-- Funciones agreagadas como COUNT, SUM, AVG, MIN, MAX
-- Uso de groupby
-- Uso de diferentes tipos de uniones: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
-### Otros criterios a tener en cuenta
-- El repositorio de GitHub debe tener README explicando muy brevemente cómo arrancar el proyecto.
-*/
