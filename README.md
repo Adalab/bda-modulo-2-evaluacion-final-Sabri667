@@ -1,4 +1,4 @@
-# 📘 Examen Módulo 2 – SQL (Sakila)
+# 📘 Exámen Módulo 2 – SQL (Sakila)
 
 > **Autora:** Sabrina Giselle Gómez Trujillo  
 > **Bootcamp:** Data Analytics e IA – Adalab  
@@ -9,11 +9,13 @@
 Este repositorio contiene la resolución completa del **Examen Final del Módulo 2**, que evalúa habilidades en SQL utilizando la base de datos **Sakila** (tienda de alquiler de películas). Se han respondido **24 ejercicios** que abarcan desde consultas básicas hasta subconsultas, funciones de agregación, joins y operadores lógicos.
 
 ## 🗂️ Estructura del repositorio
+
+```text
 📁 bda-modulo-2-evaluacion-final-sabri667/
-├── README.md # Este archivo
-└── EvaluacionSGGT.sql # Script con todas las respuestas y consultas auxiliares
-
-
+│
+├── README.md
+└── EvaluacionSGGT.sql
+```
 ## ⚙️ Requisitos previos
 
 - **MySQL** (versión 5.7 o superior) o **MariaDB**.
